@@ -1,11 +1,10 @@
 import React from "react";
-import Api from "./Api";
-import Form from "./Form";
+import Routers from "./Components/Routers";
 
 const App = () => {
   return (
     <div>
-      <Form></Form>
+      <Routers />
     </div>
   );
 };
